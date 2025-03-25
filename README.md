@@ -1,6 +1,5 @@
 # Codsoft_task2
-A landing page
-Book Club Landing Page
+A Book Club Landing Page
 
 Overview:
 This is a modern and visually appealing landing page designed to introduce visitors to an online book club. It encourages engagement, book discussions, and community participation.
