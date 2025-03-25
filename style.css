@@ -1,0 +1,328 @@
+body {
+    background: linear-gradient(to bottom, #f9f3e9, #f2e4d4); /* Soft Beige Gradient */
+    font-family: 'Poppins', sans-serif; /* Elegant font */
+    color: #333; /* Dark grey text */
+}
+h1, h2, p {
+    text-align: center; /* Ensures all headings and paragraphs are centered */
+}
+input, button {
+    display: block;
+    margin: 10px auto; /* Centers input fields and buttons */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background */
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+    align-content: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signup-btn {
+    background-color: #ff6b6b; /* Highlight Sign Up */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.book-slider {
+    position: fixed; /* Stick to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.book-track {
+    display: flex;
+    animation: scrollBooks 60s linear infinite;
+}
+.book-image:hover {
+    transform: scale(1.05); /* Adds a slight zoom effect */
+}
+@keyframes scrollBooks {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+/* Headings - Playfair Display */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+/* Body Text - Lora */
+body, p {
+    font-family: 'Lora', serif;
+}
+.welcome-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.catchy-text {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+.join-club-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d35400;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.join-club-btn:hover {
+    background-color: #a04000;
+}
+.footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lora', serif;
+}
+.cta-section {
+    margin: 20px 0;
+}
+.cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+.newsletter input {
+    padding: 8px;
+    margin-right: 5px;
+}
+.newsletter button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full-page height */
+}
+main {
+    flex: 1; /* Pushes footer down */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full-page height */
+    margin: 0; /* Removes any default margins */
+}
+main {
+    flex: 1; /* Pushes the footer to the right side of the page*/
+}
+.footer {
+    text-align: right;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    padding: 10px;
+}
+html, body {
+    height: 100vh; /* Make the body fill the entire screen */
+    margin: 0; /* Remove default margins */
+    overflow: hidden; /* Prevent scrolling */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusts content placement */
+}
+.center {
+    text-align: center;  /* Centers the text */
+    margin-top: 10px;  /* Adjusts spacing */
+}
+.book-challenge {
+    font-size: 18px;  /* Adjusts size */
+    font-weight: bold;  /* Makes it bold */
+    text-decoration: underline;  /* Adds underline */
+    color: #ff6600;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;  /* Adjust this if needed */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333;
+}
+.book-track img {
+    width: 100px;  /* Adjust this value to increase or decrease the size */
+    height: fixed;   /* Maintains aspect ratio */
+    margin: 0 10px; /* Adds spacing between books */
+}
+body {
+    background: url('images/book-club-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body {
+    background-image: url('images/book-club-bg.jpg'); /* Correct path */
+    background-size: cover; /* Ensures the image covers the screen without distortion */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps it in place when scrolling */
+}
+.quote-section {
+    background: transparent; /* Removes background */
+    color: transparent /* Adjust color to match the background */
+}
+.footer-links {
+    position: relative; /* Ensure it's positioned correctly */
+    bottom: 0; /* Align it at the bottom */
+    text-align: center; /* Center the links */
+    padding: 10px 0; /* Adjust spacing */
+}
+
+.footer-links a {
+    color: black; /* Match the text color with the white background */
+    margin: 0 15px; /* Add space between links */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Keep them in line */
+    text-align: right;
+}
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 5px; /* Reduce space */
+}
+.book-container img {
+    width: 120px; /* Adjust as needed */
+    height: 180px; /* Ensures uniform height */
+    object-fit: cover; /* Prevents stretching */
+    .book-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px; /* Reduce spacing */
+        justify-content: center;
+        align-items: center;
+    }
+    .book-container img {
+        margin: 0;
+        padding: 0;
+        width: 120px; /* Adjust as needed */
+        height: 180px;
+        object-fit: cover;
+    }
+}
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2px;
+}
+.book-container img {
+    width: 120px; /* Set all images to the same width */
+    height: 180px; /* Set all images to the same height */
+    object-fit: cover; /* Prevents distortion */
+}
+.book-track img {
+    width: auto; /* Adjust width automatically based on aspect ratio */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fill the set dimensions without distortion */
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;  /* White background for contrast */
+    border-radius: 20px;  /* Rounded corners */
+    padding: 2px 20px;  /* Space inside */
+    border: 1px solid #ccc;  /* Light border */
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+    width: 120px;  /* Adjust width */
+    background: transparent;
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.sidebar {
+    width: 250px;  /* Adjust width as needed */
+    position: absolute;
+    right: 20px;  /* Keep it aligned to the right */
+    top: 275px;  /* Move it lower so it doesn’t overlap images */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #8B4513; /* Brownish color to match the theme */
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar li {
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration-line: underline;
+}
+.header {
+    display: flex;  /* Use Flexbox */
+    justify-content: space-between;  /* Spread items evenly */
+    align-items: center;  /* Perfect vertical alignment */
+    padding: 15px 20px;
+    width: 100%;
+    position: relative;
+}
